@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 
 <body>
@@ -18,10 +19,11 @@
             <nav>
                 <a href="#" class="logo">JERP<span>z.</span></a>
                 <ul class="nav-links">
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="mailto:jeeraphol1800@gmail.com" class="nav-cta">Pum Here Arai wa</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,145 +31,305 @@
 
     <section class="hero parallax-bg">
         <div class="container reveal">
-            <span class="hero-badge">Hi! i'm Jeeraphol (JERPz)</span>
-            <h1>Young Mai Ruu<br><span class="outline">Ja Sai A Rai</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet omnis,
-                voluptates eum magni recusandae ut est molestiae ullam soluta nemo expedita odio laborum,
-                veritatis eveniet molestias dolor sit suscipit tempore!</p>
-            <div class="scroll-indicator">↓ SCROLL TO EXPLORE</div>
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <span class="hero-badge">Available for Projects</span>
+                    <h1>Logic Meets<br><span class="outline">Creativity</span></h1>
+                    <p class="hero-lede">Applied Mathematics student and fullstack developer crafting tactile UI—pixel +
+                        collage energy with clean usability.</p>
+                    <div class="hero-meta">
+                        <span class="meta-chip">UI/UX</span>
+                        <span class="meta-chip">Fullstack</span>
+                        <span class="meta-chip">System Design</span>
+                        <span class="meta-chip">Prototyping</span>
+                    </div>
+                    <p class="hero-paragraph">I like building interfaces that feel physical: labeled controls, bold
+                        typography, and playful motion—without sacrificing accessibility and speed.</p>
+                    <div class="hero-actions">
+                        <a class="pixel-btn" href="#projects">View Projects</a>
+                        <a class="pixel-btn pixel-btn-ghost" href="#blog">Read Blog</a>
+                    </div>
+                    <div class="scroll-indicator">↓ SCROLL TO EXPLORE</div>
+                </div>
+                <div class="hero-collage" aria-hidden="true">
+                    <div class="collage-card collage-card-a">
+                        <div class="collage-title">Now</div>
+                        <div class="collage-body">Learning, shipping, iterating.</div>
+                        <div class="collage-stamp">JERPZ</div>
+                    </div>
+                    <div class="collage-card collage-card-b">
+                        <div class="pixel-hero-art">
+                            <div class="pixel-sprite"></div>
+                            <div class="pixel-sparkles"></div>
+                        </div>
+                    </div>
+                    <div class="collage-card collage-card-c">
+                        <div class="collage-title">Focus</div>
+                        <div class="collage-body">Fast workflows, clear systems, joyful polish.</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <div class="marquee">
         <div class="marquee-content">
-            <span>APPLIED MATHEMATICS</span> <span>•</span>
-            <span>LOREM IPSUM</span> <span>•</span>
-            <span>FULLSTACK DEVELOPMENT</span> <span>•</span>
-            <span>SPAN-IT GRID CSS</span> <span>•</span>
-            <span>LOREM IPSUM</span> <span>•</span>
-            <span>FULLSTACK DEVELOPMENT</span> <span>•</span>
-            <span>SPAN-IT GRID CSS</span> <span>•</span>
+            <span>APPLIED MATHEMATICS</span> <span class="marquee-sim">★</span>
+            <span>DATA STRUCTURES</span> <span class="marquee-sim">★</span>
+            <span>FULLSTACK DEVELOPMENT</span> <span class="marquee-sim">★</span>
+            <span>UI/UX DESIGN</span> <span class="marquee-sim">★</span>
+            <span>PROBLEM SOLVING</span> <span class="marquee-sim">★</span>
+            <span>APPLIED MATHEMATICS</span> <span class="marquee-sim">★</span>
+            <span>DATA STRUCTURES</span> <span class="marquee-sim">★</span>
+            <span>FULLSTACK DEVELOPMENT</span> <span class="marquee-sim">★</span>
+            <span>UI/UX DESIGN</span> <span class="marquee-sim">★</span>
+            <span>PROBLEM SOLVING</span> <span class="marquee-sim">★</span>
+            <span>APPLIED MATHEMATICS</span> <span class="marquee-sim">★</span>
+            <span>DATA STRUCTURES</span> <span class="marquee-sim">★</span>
+            <span>FULLSTACK DEVELOPMENT</span> <span class="marquee-sim">★</span>
+            <span>UI/UX DESIGN</span> <span class="marquee-sim">★</span>
+            <span>PROBLEM SOLVING</span> <span class="marquee-sim">★</span>
+            <span>APPLIED MATHEMATICS</span> <span class="marquee-sim">★</span>
+            <span>DATA STRUCTURES</span> <span class="marquee-sim">★</span>
+            <span>FULLSTACK DEVELOPMENT</span> <span class="marquee-sim">★</span>
+            <span>UI/UX DESIGN</span> <span class="marquee-sim">★</span>
+            <span>PROBLEM SOLVING</span> <span class="marquee-sim">★</span>
         </div>
     </div>
 
-    <section id="work">
+    <section id="about" class="about-section">
         <div class="container">
             <div class="section-header reveal">
-                <h2>Selected Work</h2>
-                <span>(2022 — 2025)</span>
+                <h2>About</h2>
+                <span>Profile</span>
+            </div>
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="about-kicker">Bio</div>
+                    <div class="about-top">
+                        <img class="about-portrait" src="asset/pic.png" alt="Portrait">
+                        <div>
+                            <h3 class="about-title">Jeeraphol Khangraeng</h3>
+                            <p class="about-text">Web developer with hands-on experience building real-world web
+                                applications using Vue.js and React. Skilled in creating interactive user interfaces,
+                                integrating APIs, and handling real-time data. Strong understanding of system design and
+                                database structure.</p>
+                        </div>
+                    </div>
+                    <div id="skills" class="bio-tech">
+                        <div class="bio-tech-kicker">Technical Stack</div>
+                        <div class="bio-tech-grid">
+                            <div class="bio-tech-group">
+                                <div class="bio-tech-title">Frontend</div>
+                                <div class="bio-tech-chips">
+                                    <span class="stack-chip">Vue.js</span>
+                                    <span class="stack-chip">React</span>
+                                    <span class="stack-chip">Tailwind CSS</span>
+                                </div>
+                            </div>
+                            <div class="bio-tech-group">
+                                <div class="bio-tech-title">Languages</div>
+                                <div class="bio-tech-chips">
+                                    <span class="stack-chip">JavaScript</span>
+                                    <span class="stack-chip">TypeScript</span>
+                                    <span class="stack-chip">Golang</span>
+                                    <span class="stack-chip">Python</span>
+                                </div>
+                            </div>
+                            <div class="bio-tech-group">
+                                <div class="bio-tech-title">Backend</div>
+                                <div class="bio-tech-chips">
+                                    <span class="stack-chip">REST API</span>
+                                    <span class="stack-chip">Firebase</span>
+                                </div>
+                            </div>
+                            <div class="bio-tech-group">
+                                <div class="bio-tech-title">DB & Tools</div>
+                                <div class="bio-tech-chips">
+                                    <span class="stack-chip">MySQL</span>
+                                    <span class="stack-chip">PostgreSQL</span>
+                                    <span class="stack-chip">Git</span>
+                                    <span class="stack-chip">Docker</span>
+                                    <span class="stack-chip">Figma</span>
+                                    <span class="stack-chip">XAMPP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-facts">
+                        <div class="fact-row"><span class="fact-key">Phone</span><span
+                                class="fact-val">0877637639</span></div>
+                        <div class="fact-row"><span class="fact-key">Email</span><span
+                                class="fact-val">jeeraphol1800@gmail.com</span></div>
+                        <div class="fact-row"><span class="fact-key">GitHub</span><span class="fact-val"><a
+                                    class="fact-link" href="https://github.com/JERPz" target="_blank"
+                                    rel="noopener noreferrer">github.com/JERPz</a></span></div>
+                    </div>
+                    <div class="about-actions">
+                        <a class="pixel-btn" href="asset/cv.pdf" target="_blank" rel="noopener noreferrer">Open CV</a>
+                        <a class="pixel-btn pixel-btn-ghost" href="asset/transcript.pdf" target="_blank"
+                            rel="noopener noreferrer">Transcript</a>
+                    </div>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-kicker">Experience</div>
+                    <div class="role">
+                        <div class="role-top">
+                            <div class="role-title">Full Stack Developer Intern | H-lab (former Box Exhibit)</div>
+                            <div class="role-when">May 2025 — Oct 2025</div>
+                        </div>
+                        <ul class="about-list">
+                            <li>Developed and maintained web applications using Vue.js, React, and Firebase.</li>
+                            <li>Built an artist voting system for Music Festival (multi-step voting, ranking, feedback).
+                            </li>
+                            <li>Collaborated on responsive UI/UX and backend service integration.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-card reveal">
+                    <div class="about-kicker">Education</div>
+                    <ol class="timeline">
+                        <li class="timeline-item">
+                            <div class="edu-row">
+                                <div class="timeline-what">King Mongkut’s Institute of Technology Ladkrabang (KMITL)
+                                </div>
+                                <img class="edu-logo"
+                                    src="https://www.reg.kmitl.ac.th/index/new_index_assets/img/logo/main.png"
+                                    alt="KMITL logo" loading="lazy" referrerpolicy="no-referrer">
+                            </div>
+                            <div class="timeline-when">2022 — Expected Graduation: April 2026</div>
+                            <div class="timeline-where">Bachelor of Science in Applied Mathematics</div>
+                            <div class="timeline-note">Relevant Coursework: Programming, Data Structures, Database
+                                Systems</div>
+                            <div class="timeline-where">GPA: 2.79</div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="edu-row">
+                                <div class="timeline-what">Nakhon Nayok Witthayakom School</div>
+                                <img class="edu-logo"
+                                    src="https://nakorn.ac.th/mis/schoolmin/gallery/logo/school_logo.png?1774088938"
+                                    alt="Nakhon Nayok Witthayakom School logo" loading="lazy"
+                                    referrerpolicy="no-referrer">
+                            </div>
+                            <div class="timeline-when">2019 — 2022</div>
+                            <div class="timeline-where">Science — Mathematics Program</div>
+                            <div class="timeline-where">GPA: 3.53</div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Projects</h2>
+                <span>Press Start ▶</span>
             </div>
 
             <div class="work-grid">
+                <a href="https://jerpz.github.io/spark-soda-mockup/" target="_blank" class="project-card reveal">
+                    <div class="project-image">
+                        <span class="badge badge-complete">COMPLETE</span>
+                        <img src="asset/cover/soda_cov.gif" alt="Spark Soda">
+                        <div class="generic-overlay"><i class="fas fa-eye"></i><span>VIEW CASE STUDY</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span>01 / Visual Design</span>
+                        <h3>Spark Soda Mockup</h3>
+                    </div>
+                </a>
+
+                <a href="https://jerpz.github.io/hotel-reservation-system/" target="_blank" class="project-card reveal">
+                    <div class="project-image">
+                        <span class="badge badge-inprogress">IN PROGRESS</span>
+                        <img src="asset/cover/hotel_cov.gif" alt="30Rooms Hotel Reservation System">
+                        <div class="generic-overlay"><i class="fas fa-external-link-alt"></i><span>OPEN WEBSITE</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span>02 / Frontend</span>
+                        <h3>30Rooms Hotel Reservation</h3>
+                    </div>
+                </a>
+
                 <a href="https://jerpz.github.io/span-it-grid-css/" target="_blank" class="project-card reveal">
                     <div class="project-image">
-                        <span class="badge badge-beta">BETA</span>
-                        <div class="tool-preview">
-                            <div class="grid-box"></div>
-                            <div class="grid-box span-2"></div>
-                        </div>
+                        <span class="badge badge-inprogress">IN PROGRESS</span>
+                        <img src="asset/cover/spanit_cov.gif" alt="Span-it Grid CSS">
                         <div class="generic-overlay">OPEN TOOL <i class="fas fa-external-link-alt"></i></div>
                     </div>
                     <div class="project-info">
-                        <span>01 / Developer Tool</span>
+                        <span>03 / Developer Tool</span>
                         <h3>Span-it Grid CSS</h3>
                     </div>
                 </a>
-
-                <a href="https://www.instagram.com/reel/DQPbKbOkoUl/" target="_blank" class="project-card reveal">
-                    <div class="project-image">
-                        <span class="badge badge-complete">COMPLETE</span>
-                        <img src="asset/cover_nited.jpg"
-                            alt="NitedKaset">
-                        <div class="ig-overlay"><i class="fab fa-instagram"></i><span>VIEW REEL</span></div>
-                    </div>
-                    <div class="project-info">
-                        <span>02 / Event App</span>
-                        <h3>NitedKaset Festival</h3>
-                    </div>
-                </a>
-
-                <a href="https://youtu.be/0hXBm22LQAA" target="_blank" class="project-card reveal">
-                    <div class="project-image">
-                        <span class="badge badge-complete">COMPLETE</span>
-                        <img src="https://img.youtube.com/vi/0hXBm22LQAA/maxresdefault.jpg" alt="RideMate">
-                        <div class="video-overlay"><i class="fab fa-youtube"></i><span>WATCH DEMO</span></div>
-                    </div>
-                    <div class="project-info">
-                        <span>03 / Mobile Prototype</span>
-                        <h3>RideMate App</h3>
-
-                    </div>
-                </a>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
+    <section id="blog" class="blog-section">
         <div class="container">
             <div class="section-header reveal">
-                <h2>Technical Stack</h2>
-                <span>Tools & Expertise</span>
+                <h2>Blog</h2>
+                <span>Notes & Experiments</span>
             </div>
-            <div class="skills-grid">
-                <div class="skill-category reveal">
-                    <h3>Languages</h3>
-                    <ul>
-                        <li>Java <span>(OOP)</span></li>
-                        <li>Python <span>(Logic)</span></li>
-                        <li>Golang</li>
-                        <li>Dart </li>
-                        <li>SQL</li>
-                        <li>HTML / CSS / JavaScript</li>
-                    </ul>
-                </div>
-                <div class="skill-category reveal">
-                    <h3>Frameworks</h3>
-                    <ul>
-                        <li>React / Vue</li>
-                        <li>Tailwind CSS</li>
-                        <li>Flutter</li>
-                        <li>Streamlit</li>
-                    </ul>
-                </div>
-                <div class="skill-category reveal">
-                    <h3>Databases</h3>
-                    <ul>
-                        <li>MySQL</li>
-                        <li>PostgreSQL</li>
-                        <li>Firebase</li>
-                        <li>MongoDB</li>
-                    </ul>
-                </div>
-                <div class="skill-category reveal">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Git / GitHub</li>
-                        <li>Docker</li>
-                        <li>DBeaver</li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
+            <div class="blog-grid">
+                <article class="post-card reveal">
+                    <div class="post-meta">
+                        <span class="post-date">Case Study</span>
+                        <span class="post-tags">PWA • Firebase</span>
+                    </div>
+                    <h3 class="post-title">NitedKaset Festival — Live Event Ticket Check-in System</h3>
+                    <p class="post-excerpt">A real live-event ticket management and check-in system designed to stay
+                        lightweight, reliable, and fast under peak entrance traffic.</p>
+                    <a class="post-link" href="https://jerpz.github.io/nited-kaset-blog/" target="_blank"
+                        rel="noopener noreferrer">Read</a>
+                </article>
+                <article class="post-card reveal">
+                    <div class="post-meta">
+                        <span class="post-date">Case Study</span>
+                        <span class="post-tags">SA • DB Design</span>
+                    </div>
+                    <h3 class="post-title">RideMate — System Design Case Study</h3>
+                    <p class="post-excerpt">System analysis + database design case study: roles, workflow, and a
+                        scalable schema for campus ride-sharing.</p>
+                    <a class="post-link" href="https://jerpz.github.io/ridemate-blog/" target="_blank"
+                        rel="noopener noreferrer">Read</a>
+                </article>
+                <article class="post-card reveal">
+                    <div class="post-meta">
+                        <span class="post-date">Coming Soon</span>
+                        <span class="post-tags">Notes • Experiments</span>
+                    </div>
+                    <h3 class="post-title">hotel-reservation-system</h3>
+                    <p class="post-excerpt">Hotel Reservation System is currently in development. A detailed blog post
+                        is coming soon.</p>
+                    <a class="post-link" href="#projects">Browse</a>
+                </article>
             </div>
         </div>
     </section>
 
-    <footer>
+    <footer id="contact">
         <div class="container reveal">
             <div class="footer-top">
-                <p class="label">GET IN TOUCH</p>
+                <p class="label">Interested in collaborating?</p>
                 <a href="mailto:jeeraphol1800@gmail.com" class="contact-link">jeeraphol1800@gmail.com</a>
             </div>
             <div class="footer-bottom">
                 <div class="socials">
                     <a href="https://github.com/JERPz" target="_blank">GitHub</a>
                     <a href="#">LinkedIn</a>
+                    <a href="#">Instagram</a>
                 </div>
-                <p>::</p>
+                <p>© 2026 JERPz. Built with logic.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script/script.js"></script>
+    <script src="/script/script.js"></script>
 </body>
 
 </html>
